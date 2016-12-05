@@ -1,0 +1,263 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*NAVBAR*/
+.navbar-default {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-color: transparent;
+  padding-bottom: 15px;
+}
+
+.navbar-nav {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin: 30px 100px 0px 0px;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: #16A085;
+}
+
+.brand img {
+    margin: 5px 0px 0px 100px;
+}
+
+/*HERO*/
+
+#hero {
+  background: url('../img/hero3.jpg');
+  width: 100%;
+  background-size: cover;
+  color: #fff;
+}
+
+#hero h1 {
+  text-transform: uppercase;
+  font-size: 60px;
+}
+
+.hero_elements {
+  padding: 300px 0;
+}
+
+#hero .spc {
+  font-size: 20px;
+  letter-spacing: 4px;
+  padding-bottom: 20px;
+}
+
+.btn {
+  background-color: #16A085;
+  border-color: #16A085;
+  text-transform: uppercase;
+  border-radius: 0px;
+}
+
+.btn:hover {
+  background-color: #0a4a3e;
+  border-color: #0a4a3e;
+}
+
+/*PHOTO SECTION*/
+
+  #photo {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+  }
+
+  #photo h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #16A085;
+    font-weight: bold;
+  }
+
+  #photo i {
+    color: #16A085;
+  }
+
+  #photo i:hover {
+    color: #0a4a3e;
+  }
+
+  /*IPHONE*/
+
+  .iphone1 {
+    margin: 80px 0;
+  }
+
+  .iphone2 {
+  }
+
+  #iphone h1 {
+    padding-bottom: 20px;
+  }
+
+  #iphone p {
+    font-size: 14.5px;
+    line-height: 15px;
+  }
+
+  #iphone .btn-success {
+    margin-top: 20px;
+  }
+
+  /*community*/
+
+  #community {
+    padding: 50px 0;
+    background-color: #F5F6F7;
+  }
+
+  #community i {
+    color: #16A085;
+  }
+
+  #community i:hover {
+    color: #0a4a3e;
+  }
+
+  /*signup*/
+
+  #signup {
+    background: url("../img/signup-bg.jpg");
+    width: 100%;
+    background-size: cover;
+    padding: 300px 0;
+  }
+
+  #signup h1 {
+    text-transform: uppercase;
+    color: #fff;
+    padding-bottom: 20px;
+    font-weight: 700;
+  }
+
+  #signup .btn {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+  #signup .btn:hover {
+    background-color: #000;
+    border-color: #000;
+  }
+
+  #signup .fa-check {
+    color: #fff;
+  }
+
+  /*download*/
+
+  #download {
+    padding: 100px 0;
+    background-color: #F5F6F7;
+  }
+
+  #download h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #16A085;
+    margin-bottom: 18px;
+  }
+
+  #download p {
+    padding-bottom: 20px;
+  }
+
+  #download li {
+    padding: 0 10px;
+  }
+
+/*footer*/
+
+  #foot {
+    padding: 25px 0;
+  }
+
+  #foot p {
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+
+  #foot .seperator {
+    color: #16A085;
+    font-weight: 800;
+    padding: 0 6px;
+  }
+
+  #foot .copy {
+    font-weight: 700;
+  }
+
+/*MEDIA QUERY*/
+
+@media(max-width: 768px) {
+  /*media for nav*/
+  .brand img {
+      margin: 5px 0px 0px 15px;
+  }
+
+  .navbar-nav {
+    margin: 0px 100px 0px 0px;
+  }
+
+  .navbar-header {
+    padding-bottom: 20px;
+  }
+  .navbar-header .navbar-toggle {
+    margin-top: 30px;
+  }
+  /*media for hero*/
+  #hero h1 {
+    font-size: 40px;
+  }
+
+  #hero .spc {
+    font-size: 15px;
+  }
+
+  .hero_elements {
+    padding: 150px 0;
+  }
+  /*media for photo section*/
+
+  #photo i {
+    font-size: 35px;
+  }
+
+  #photo h1 {
+    font-size: 25px;
+  }
+
+  /*iphone*/
+  #iphone h1 {
+    font-size: 30px;
+  }
+  /*community*/
+  #community img.car {
+    padding-bottom: 20px;
+  }
+  /*download*/
+  #download {
+    padding: 50px 0;
+  }
+
+  #download li {
+    padding: 5px 0;
+  }
+
+  #foot .center {
+    text-align: center;
+  }
+
+  #foot img {
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+  }
+}
